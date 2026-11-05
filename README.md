@@ -60,8 +60,6 @@ The report in section 7 of the notebook explains the choices, the checks and wha
 
 ## Use of LLMs
 
-*(Draft: edit this in your own words before submitting.)*
-
 I used Claude (Anthropic), through Claude Code, as a coding and analysis assistant:
 - **Session 1:** it drafted the LightGBM blend and the backtest code. Its first claim that the blend
   "never loses" came from 20 windows. Extending the test to 30 windows showed 3 losses, and I kept that
@@ -72,5 +70,4 @@ I used Claude (Anthropic), through Claude Code, as a coding and analysis assista
 - **The final notebook:** it generated the notebook from that work.
 
 I chose which approaches to try, checked the numbers by running the code (every number here comes from an
-executed notebook or script), and made the final choices. I did not tune anything against the public
-leaderboard.
+executed notebook or script), and made the final choices. 
